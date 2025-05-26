@@ -1,0 +1,2 @@
+Model,Test Accuracy,Test Loss,Precision (weighted),Recall (weighted),F1-score (weighted),Training Epochs
+CNN,0.39668208360671997,1.3948934078216553,0.43264347839978967,0.3966820785716363,0.2932518056302948,10

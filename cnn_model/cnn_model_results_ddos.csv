@@ -1,0 +1,2 @@
+Model,Accuracy,Precision (weighted avg),Recall (weighted avg),F1-score (weighted avg),Training Time (epochs),Final Loss,Validation Accuracy
+CNN,0.6096123456954956,0.371627209551954,0.6096123436676409,0.46175989021700625,10,0.6692211627960205,0.6096123456954956

@@ -21,3 +21,14 @@ Learning Switch (https://github.com/ARCCN/l2-learning-switch) - маршрути
   - cmake ..
   - make
   
+Запуск экспериментов:
+1) Скачать папку "generation_dataset" из репозитория с исходниками программной реализации
+2) Запустить контроллер RUNOS 2.0 при помощи команды "build/runos", выполненной из корневой директории runos
+3) Базовый запуск программы "python3 generation_dataset.py"
+4) Запуск с расширенными параметрами:
+"sudo python3 generation_dataset.py \
+    --hosts <количество_хостов> \
+    --topo <linear|ring|star> \
+    --duration <секунды> \
+    --attack_prob <вероятность> \
+    --output <файл.csv>"
